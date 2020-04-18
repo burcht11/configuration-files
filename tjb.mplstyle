@@ -1,1 +1,33 @@
-/Users/tburch/.matplotlib/stylelib/tjb.mplstyle
+### Style sheet heavily borrowed from BMH
+
+lines.linewidth   : 2.0     # line width in points
+
+patch.linewidth        : 0.5     # edge width in points
+patch.facecolor        : blue
+patch.edgecolor        : eeeeee
+patch.antialiased      : True
+
+text.hinting_factor : 8 # Specifies the amount of softness for hinting in the
+                         # horizontal direction.  A value of 1 will hint to full
+                         # pixels.  A value of 2 will hint to half pixels etc.
+
+
+#axes.facecolor      : eeeeee   # axes background color
+#axes.grid           : True   # display grid or not
+
+axes.edgecolor      : bcbcbc   # axes edge color
+axes.titlesize      : x-large   # fontsize of the axes title
+axes.labelsize      : large  # fontsize of the x any y labels
+
+axes.color_cycle    : 348ABD, A60628, 7A68A6, 467821,D55E00,  CC79A7, 56B4E9, 009E73, F0E442, 0072B2  # color cycle for plot lines
+                                            # as list of string colorspecs:
+                                            # single letter, long name, or
+                                            # web-style hex
+
+legend.fancybox      : True  # if True, use a rounded box for the
+                               # legend, else a rectangle
+
+figure.figsize   : 11, 8    # figure size in inches
+figure.dpi       : 100     # figure dots per inch
+
+savefig.dpi        : 300      # figure dots per inch
